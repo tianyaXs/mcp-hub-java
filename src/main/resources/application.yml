@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  ai:
+    dashscope:
+      api-key: sk-********************
+    mcp:
+      client:
+        sse:
+          connections:
+            server1:
+              url: http://localhost:8898
+            server2:
+              url: http://localhost:18081
+
+
+
+

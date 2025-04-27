@@ -1,0 +1,9 @@
+server:
+  port: 8898  # 服务器端口配置
+
+spring:
+  ai:
+    mcp:
+      server:
+        name: weather-server    # MCP服务器名称
+        version: 0.0.1            # 服务器版本号
